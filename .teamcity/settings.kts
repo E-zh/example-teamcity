@@ -38,7 +38,7 @@ project {
 object BuildPlainDoll : BuildType({
     name = "Build PlainDoll"
 
-    artifactRules = "target/*.jar => target"
+    artifactRules = "target/*.jar"
 
     params {
         text("name", "alexey", allowEmpty = true)
